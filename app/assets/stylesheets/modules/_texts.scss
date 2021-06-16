@@ -3,31 +3,19 @@
 }
 
 .wrapper {
-  height: 100vh;
+  background-color: hotpink;
 }
 
 .header{
-  height: 80px;
+  height: 50px;
   width: 100vw;
-  background-color:yellow;
-  display: flex;
-  &__title{
-    height: 70px;
-    width: 340px;
-    background-color:orange;
-    margin: 5px;
-  }
-  &__search{
-    height: 90px;
-    width: calc(100vw - 700px);
-    background-color:black;
-  }
+  background-color: greenyellow;
   &__account{
     height: 40px;
-    width: 340px;
+    width: 100px;
     background-color:orangered;
-    margin: 20px 5px;
-    position: relative;
+    margin: 5px 5px;
+    float: right;
     &__icon{
       position: absolute;
     }
@@ -39,99 +27,24 @@
   }
 }
 
-.right-box{
-  height: calc(100vh - 110px);
-  width: 350px;
+.submit-btn{
+  width: 40px;
+  height: 40px;
+  margin: 10px 5px;
+  cursor: pointer;
   background-color: skyblue;
-  float: left;
-  position: relative;
-  &__title{
-    height: 30px;
-    width: 340px;
-    background-color: blue;
-    position: absolute;
-    margin: 5px;
-    text-align: center;
-  }
-  &__form{
-    height: 60px;
-    width: 350px;
-    background-color:blue;
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    .input-box{
-      width: 300px;
-      height: 50px;
-      font-size: 20px;
-      margin: 5px;
-      cursor: pointer;
-      background-color: skyblue;
-      position: relative;
-      &__text{
-        width: 260px;
-        height: 40px;
-        margin: 5px 5px;
-        border: none;
-      }
-      &__image{
-        top: 10px;
-        right: 5px;
-        font-size: 20px;
-        position: absolute;
-        cursor: pointer;
-        &__file{
-          display: none;
-        }
-      }
-    }
-    .submit-btn{
-      width: 40px;
-      height: 40px;
-      margin: 10px 5px;
-      cursor: pointer;
-      background-color: skyblue;
-      color: black;
-    }
-  }
+  color: black;
 }
 
 .main-box{
-  height: calc(100vh - 110px);
-  width: calc(100vw - 700px);
-  background-color: pink;
-  float: left;
-  position: relative;
-  &__title{
-    height: 30px;
-    width: calc(100% - 10px);
-    background-color: red;
-    position: absolute;
-    text-align: center;
-    margin: 5px;
-  }
-}
-
-.left-box{
-  height: calc(100vh - 110px);
-  width: 350px;
-  background-color: chartreuse;
-  float: left;
-  position: relative;
-  &__title{
-    height: 30px;
-    width: 340px;
-    background-color: green;
-    position: absolute;
-    margin: 5px;
-    text-align: center;
-  }
+  height: 1000px;
+  width: 100vw;
 }
 
 .footer{
-  height: 30px;
+  height: 50px;
   width: 100%;
-  background-color: blueviolet;
+  background-color:#3e3e3e;
   float: left;
   text-align: center;
 }
